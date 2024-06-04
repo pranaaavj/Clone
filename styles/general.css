@@ -1,0 +1,30 @@
+@font-face {
+  font-family: puma;
+  src: url(fonts/FFDINforPUMA-Regular.ttf);
+}
+@font-face {
+  font-family: pumabold;
+  src: url(fonts/FFDINforPUMA-Bold.ttf);
+}
+@font-face {
+  font-family: gesta;
+  src: url(fonts/Gesta-Regular.otf);
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(0);
+  }
+  to {
+    opacity: 1;
+    transfrom: rotateX(0);
+  }
+}
+body {
+  font-family: puma;
+  margin: 0;
+  animation: transitionIn 1s;
+}
+p {
+  margin: 0;
+}

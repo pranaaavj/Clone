@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background-color: rgb(25, 25, 25);
+  z-index: 100;
+}
+.header-shop-button {
+  color: white;
+  background-color: rgb(25, 25, 25);
+  font-family: pumabold;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid rgb(148, 145, 145);
+  border-radius: 25px;
+
+  margin-left: 45px;
+  padding: 7px 16px;
+}
+.header-puma-logo {
+  width: 101px;
+  margin-top: 1px;
+  margin-right: 37px;
+  margin-bottom: 5px;
+}
+.header-login-button {
+  color: white;
+  background-color: rgb(38, 42, 48);
+  font-size: 16px;
+  font-family: pumabold;
+  border: 1px solid black;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  padding-right: 18px;
+  padding-left: 23px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-right: 44px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.header-login-button:hover {
+  background-color: white;
+  color: black;
+}
+.header-login-button:hover .header-login-icon {
+  filter: invert(1);
+}
+.header-login-icon {
+  width: 29px;
+  margin-left: 5px;
+}
